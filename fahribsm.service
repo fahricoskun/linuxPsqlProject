@@ -1,11 +1,9 @@
 [Unit]
 Description=Bilisim Altyapi Odev B201200028
-After=network.target
 
 [Service]
 Type=simple
 ExecStart=/usr/local/bin/fahricskn.sh
-Restart=always
 
 [Install]
 WantedBy=multi-user.target
