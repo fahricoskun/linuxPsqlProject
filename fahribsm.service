@@ -1,9 +1,9 @@
 [Unit]
-Description=Bilisim Altyapi Odev B201200028
+Description=Bilisim Altyapi Odev B201200028      #burada bir açıklama ekliyoruz
 
 [Service]
-Type=simple
-ExecStart=/usr/local/bin/fahricskn.sh
+Type=simple                                      #servisin türünü simple ile varsayılan servis türü yaptım
+ExecStart=/usr/local/bin/fahricskn.sh            #Servisi başlatacak olan komut
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=multi-user.target                       #Servisimizin hangi seviyede çalışacağını gösterir.
